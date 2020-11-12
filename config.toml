@@ -1,0 +1,4 @@
+baseURL = "https://blog.sakiir.ovh/"
+languageCode = "en-us"
+title = "SakiiR blog"
+theme = "hugo-geekblog"
