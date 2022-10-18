@@ -3,3 +3,8 @@ services:
   blog:
     build:
       context: .
+    volumes:
+      - blog-data:/usr/share/nginx/html 
+volumes:
+  blog-data:
+    name: blog-data
